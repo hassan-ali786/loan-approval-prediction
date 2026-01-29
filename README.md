@@ -1,40 +1,86 @@
 # Loan Approval Prediction
 
 ## 📌 Project Overview
-This project predicts whether a loan application will be approved using classification models. It simulates real-world banking decision systems using applicant financial and demographic data.
+This project predicts whether a loan application will be **approved or rejected** based on applicant information.  
+It is a **classification problem** in the **Finance domain**, built using Python and Machine Learning.
+
+The goal is to practice:
+- Data preprocessing
+- Handling missing values
+- Feature encoding
+- Model training
+- Model evaluation using precision & recall
+
+---
+
+## 🎯 Objective
+To build machine learning models that can accurately predict loan approval using historical loan applicant data.
+
+---
 
 ## 📊 Dataset
-- Source: Kaggle – Loan Prediction Dataset
-- Key features:
-  - Applicant Income
-  - Loan Amount
-  - Credit History
-  - Employment Status
-  - Property Area
+- Source: Kaggle (Loan Prediction Dataset)
+- File used: `loan_data.csv`
 
-## 🛠 Tools & Technologies
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- SciPy
-- Jupyter Notebook
+### Features:
+- Gender  
+- Married  
+- Dependents  
+- Education  
+- Self_Employed  
+- ApplicantIncome  
+- CoapplicantIncome  
+- LoanAmount  
+- Loan_Amount_Term  
+- Credit_History  
+- Property_Area  
 
-## 🔍 Methodology
-- Handled missing income and loan values
-- Encoded categorical features
-- Performed hypothesis testing (Income vs Loan Approval)
-- Trained:
-  - Logistic Regression
-  - Random Forest Classifier
-- Evaluated using Precision & Recall
+### Target:
+- **Loan_Status**
+  - `Y` → Approved  
+  - `N` → Rejected  
 
-## ✅ Results
-Random Forest captured complex patterns more effectively, while Logistic Regression provided an interpretable baseline model.
+---
 
-## 🚀 How to Run
-1. Download dataset from Kaggle
-2. Place `loan_train.csv` in project folder
-3. Run the Jupyter Notebook
+## 🧠 Machine Learning Models
+The following models are used:
 
-## 👤 Author
-Hassan Ali
+1. **Logistic Regression**
+2. **Random Forest Classifier**
+
+---
+
+## 📈 Evaluation Metrics
+Models are evaluated using:
+- Precision  
+- Recall  
+- F1-Score  
+
+These metrics are more reliable than accuracy for loan approval problems.
+
+---
+
+## 🗂️ Project Structure
+Loan_Approval_Prediction/
+├── data/
+│ └── loan_data.csv
+├── notebooks/
+│ └── loan_approval_prediction.ipynb
+├── models/
+│ ├── logistic_model.pkl
+│ └── random_forest_model.pkl
+├── requirements.txt
+└── README.md
+
+
+---
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+
+jupyter notebook
+notebooks/loan_approval_prediction.ipynb
+
