@@ -1,6 +1,6 @@
 # Loan Approval Prediction
 
-## 📌 Project Overview
+##  Project Overview
 This project predicts whether a loan application will be **approved or rejected** based on applicant information.  
 It is a **classification problem** in the **Finance domain**, built using Python and Machine Learning.
 
@@ -13,12 +13,12 @@ The goal is to practice:
 
 ---
 
-## 🎯 Objective
+##  Objective
 To build machine learning models that can accurately predict loan approval using historical loan applicant data.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - Source: Kaggle (Loan Prediction Dataset)
 - File used: `loan_data.csv`
 
@@ -42,7 +42,7 @@ To build machine learning models that can accurately predict loan approval using
 
 ---
 
-## 🧠 Machine Learning Models
+##  Machine Learning Models
 The following models are used:
 
 1. **Logistic Regression**
@@ -50,7 +50,7 @@ The following models are used:
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 Models are evaluated using:
 - Precision  
 - Recall  
@@ -60,25 +60,22 @@ These metrics are more reliable than accuracy for loan approval problems.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 Loan_Approval_Prediction/
 ├── data/
 │ └── loan_data.csv
 ├── notebooks/
 │ └── loan_approval_prediction.ipynb
-├── models/
-│ ├── logistic_model.pkl
-│ └── random_forest_model.pkl
 ├── requirements.txt
 └── README.md
 
 
 ---
 
-## ⚙️ How to Run the Project
+##  How to Run the Project
 
-### 1️⃣ Install Dependencies
-```bash
+### 1️⃣Install Dependencies
+
 pip install -r requirements.txt
 
 jupyter notebook
