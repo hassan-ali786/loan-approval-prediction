@@ -74,7 +74,7 @@ Loan_Approval_Prediction/
 
 ##  How to Run the Project
 
-### 1️⃣Install Dependencies
+### Install Dependencies
 
 pip install -r requirements.txt
 
