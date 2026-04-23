@@ -86,7 +86,7 @@ Loan_Approval_Prediction/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Hassan-Ali786/Loan_Approval_Prediction.git
+git clone https://github.com/hassan-ali786/Loan_Approval_Prediction.git
 cd Loan_Approval_Prediction
 ```
 
