@@ -58,7 +58,7 @@ To build machine learning models that accurately predict loan approval using his
 ## Project Structure
 
 ```bash
-Loan_Approval_Prediction/
+loan_approval_prediction/
 ├── data/
 │   └── loan_data.csv
 ├── notebooks/
