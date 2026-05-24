@@ -86,7 +86,7 @@ loan_approval_prediction/
 
 ```bash
 git clone https://github.com/hassan-ali786/loan_approval_prediction.git
-cd Loan_Approval_Prediction
+cd loan_approval_prediction
 ```
 
 2. Install dependencies:
