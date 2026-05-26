@@ -7,6 +7,12 @@ The project demonstrates data preprocessing, feature encoding, model training, a
 
 ---
 
+## Video Demo
+
+<video src="https://github.com/user-attachments/assets/a6776eec-a6a7-4a88-93df-be082bbebb5e" width="100%" controls></video>
+
+---
+
 ## Objective
 
 To build machine learning models that accurately predict loan approval using historical loan applicant data.
