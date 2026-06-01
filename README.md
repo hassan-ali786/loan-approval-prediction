@@ -132,10 +132,8 @@ jupyter notebook notebooks/loan_approval_prediction.ipynb
 ## Author
 
 **Hassan Ali**  
-Data Scientist & Machine Learning Engineer  
+Data Scientist & ML Engineer  
 
-GitHub: https://github.com/hassan-ali786  
-
----
+--
 
 ⭐ Feel free to fork this repository and explore further improvements!
