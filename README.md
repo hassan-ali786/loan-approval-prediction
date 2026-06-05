@@ -134,6 +134,5 @@ jupyter notebook notebooks/loan_approval_prediction.ipynb
 **Hassan Ali**  
 Data Scientist & ML Engineer  
 
---
 
 ⭐ Feel free to fork this repository and explore further improvements!
